@@ -280,7 +280,6 @@ https://github.com/l0ss/Grouper
 * **Red Team Automation (RTA)** - RTA provides a framework of scripts designed to allow blue teams to test their detection capabilities against malicious tradecraft, modeled after MITRE ATT&CK. https://github.com/endgameinc/RTA
 * **AttackIQ** - A commercial breach and attack simulation (BAS) platform that continuously tests and validates security controls against MITRE ATT&CK-mapped adversary behavior. https://www.attackiq.com/
 * **Prelude Operator** - A free adversary emulation tool that runs offensive security tests (Verified Security Tests, VSTs) mapped to MITRE ATT&CK against your endpoints. https://www.prelude.org/operator
-* Note: **SCYTHE**, a notable BAS vendor, was acquired by ExtraHop in 2023.
 
 ### Cloud & Container Attack Simulation
 * **Stratus Red Team** - "Adversary Emulation for the Cloud". Granular, actionable adversary emulation for the cloud, allowing you to detonate self-contained attack techniques against a live cloud environment. https://github.com/DataDog/stratus-red-team

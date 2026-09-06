@@ -147,6 +147,8 @@ hosts, open ports/ banners, and employee names from different public sources. ht
 * **Sliver** is a general purpose cross-platform implant framework that supports C2 over Mutual-TLS, HTTP(S), and DNS. https://github.com/BishopFox/sliver
 * **EvilOSX** An evil RAT (Remote Administration Tool) for macOS / OS X. https://github.com/Marten4n6/EvilOSX
 * **EggShell** is a post exploitation surveillance tool written in Python. It gives you a command line session with extra functionality between you and a target machine. https://github.com/neoneggplant/EggShell
+* **Mythic** is a cross-platform, post-exploitation collaborative C2 framework built for redteamers. It is built to provide a collaborative and user friendly interface for those on offensive security engagements. https://github.com/its-a-feature/Mythic
+* **Havoc** is a modern, malleable, cross-platform post-exploitation C2 framework built to be extensible and evade modern EDRs. https://github.com/HavocFramework/Havoc
 
 ### Staging
 * **Rapid Attack Infrastructure (RAI)** Red Team Infrastructure... Quick... Fast... Simplified
@@ -276,6 +278,14 @@ https://github.com/l0ss/Grouper
 * **Network Flight Simulator** - flightsim is a lightweight utility used to generate malicious network traffic and help security teams to evaluate security controls and network visibility. https://github.com/alphasoc/flightsim
 * **Metta** - A security preparedness tool to do adversarial simulation. https://github.com/uber-common/metta
 * **Red Team Automation (RTA)** - RTA provides a framework of scripts designed to allow blue teams to test their detection capabilities against malicious tradecraft, modeled after MITRE ATT&CK. https://github.com/endgameinc/RTA
+* **AttackIQ** - A commercial breach and attack simulation (BAS) platform that continuously tests and validates security controls against MITRE ATT&CK-mapped adversary behavior. https://www.attackiq.com/
+* **Prelude Operator** - A free adversary emulation tool that runs offensive security tests (Verified Security Tests, VSTs) mapped to MITRE ATT&CK against your endpoints. https://www.prelude.org/operator
+* Note: **SCYTHE**, a notable BAS vendor, was acquired by ExtraHop in 2023.
+
+### Cloud & Container Attack Simulation
+* **Stratus Red Team** - "Adversary Emulation for the Cloud". Granular, actionable adversary emulation for the cloud, allowing you to detonate self-contained attack techniques against a live cloud environment. https://github.com/DataDog/stratus-red-team
+* **Leonidas** - A framework for executing attacker actions in the cloud, generating logs and telemetry to help build and test detections. https://github.com/WithSecureLabs/leonidas
+* **Pacu** - The AWS exploitation framework, designed for testing the security of Amazon Web Services environments. https://github.com/RhinoSecurityLabs/pacu
 
 ### Wireless Networks
 * **Wifiphisher** is a security tool that performs Wi-Fi automatic association attacks to force wireless clients to unknowingly connect to an attacker-controlled Access Point. https://github.com/wifiphisher/wifiphisher
@@ -348,17 +358,17 @@ https://github.com/whid-injector/WHID
   * https://github.com/mgeeky/Penetration-Testing-Tools/tree/master/social-engineering
 
 ## References
-* **MITRE’s ATT&CK™** is a curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target. https://attack.mitre.org/wiki/Main_Page
+* **MITRE’s ATT&CK™** is a curated knowledge base and model for cyber adversary behavior, reflecting the various phases of an adversary’s lifecycle and the platforms they are known to target. https://attack.mitre.org/
 * **Cheat Sheets** for various projects (Beacon/Cobalt Strike,PowerView, PowerUp, Empire, and PowerSploit). https://github.com/HarmJ0y/CheatSheets
-* **PRE-ATT&CK** Adversarial Tactics, Techniques & Common Knowledge for Left-of-Exploit. https://attack.mitre.org/pre-attack/index.php/Main_Page
-* **Adversary OPSEC** consists of the use of various technologies or 3rd party services to obfuscate, hide, or blend in with accepted network traffic or system behavior. https://attack.mitre.org/pre-attack/index.php/Adversary_OPSEC
-* **Adversary Emulation Plans** To showcase the practical use of ATT&CK for offensive operators and defenders, MITRE created Adversary Emulation Plans. https://attack.mitre.org/wiki/Adversary_Emulation_Plans
+* **PRE-ATT&CK** Adversarial Tactics, Techniques & Common Knowledge for Left-of-Exploit. Since ATT&CK v8 this content has been merged into the Enterprise matrix's Reconnaissance and Resource Development tactics; the legacy matrix is kept (deprecated) at https://attack.mitre.org/matrices/pre/
+* **Adversary OPSEC** consists of the use of various technologies or 3rd party services to obfuscate, hide, or blend in with accepted network traffic or system behavior. Now covered under the Enterprise ATT&CK Defense Evasion tactic, e.g. https://attack.mitre.org/tactics/TA0005/
+* **Adversary Emulation Plans** To showcase the practical use of ATT&CK for offensive operators and defenders, MITRE created Adversary Emulation Plans. https://attack.mitre.org/resources/adversary-emulation-plans/
 * **Red-Team-Infrastructure-Wiki** Wiki to collect Red Team infrastructure hardening resources. https://github.com/bluscreenofjeff/Red-Team-Infrastructure-Wiki
 * **Advanced Threat Tactics – Course and Notes** This is a course on red team operations and adversary simulations. https://blog.cobaltstrike.com/2015/09/30/advanced-threat-tactics-course-and-notes
 * **Red Team Tips** as posted by @vysecurity on Twitter. https://vincentyiu.co.uk/red-team-tips
 * **Awesome Red Teaming** List of Awesome Red Team / Red Teaming Resources. https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 * **APT & CyberCriminal Campaign Collection** This is a collection of APT and CyberCriminal campaigns. Please fire issue to me if any lost APT/Malware events/campaigns. https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections
-* **ATT&CK for Enterprise Software** is a generic term for custom or commercial code, operating system utilities, open-source software, or other tools used to conduct behavior modeled in ATT&CK. https://attack.mitre.org/wiki/Software
+* **ATT&CK for Enterprise Software** is a generic term for custom or commercial code, operating system utilities, open-source software, or other tools used to conduct behavior modeled in ATT&CK. https://attack.mitre.org/software/
 * **Planning a Red Team exercise** This document helps inform red team planning by contrasting against the very specific red team style described in Red Teams. https://github.com/magoo/redteam-plan
 * **Awesome Lockpicking** a curated list of awesome guides, tools, and other resources related to the security and compromise of locks, safes, and keys. https://github.com/meitar/awesome-lockpicking
 * **Awesome Threat Intelligence** a curated list of awesome Threat Intelligence resources. https://github.com/hslatman/awesome-threat-intelligence
